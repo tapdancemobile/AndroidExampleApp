@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffffff</color>
+	<color name="orange">#fd8d1a</color>
+	<color name="lightorange">#FF6600</color>
+	<color name="black">#ff000000</color>
+	<color name="lightgrey">#EAECF0</color>
+	<color name="darkgrey">#555555</color>
+	<color name="morebar">#e2e7ed</color>
+	<color name="blue">#347ada</color>
+	<color name="rowtitle">#696969</color>
+	<color name="menuheader">#EAECF0</color>
+	<color name="menuitem">#fffff0</color>
+	<color name="titlebar">#154574</color>
+	<color name="maintabselected">#EAECF0</color>
+	<color name="maintabunselected">#778CA8</color>
+	<color name="maintabtextselected">#ff000000</color>
+	<color name="maintabtextunselected">#f8f8f8</color>
+	<color name="detailtabselected">#C9D9AF</color>
+	<color name="detailtabunselected">#EAECF0</color>
+	<color name="detailtabtextselected">#f8f8f8</color>
+	<color name="detailtabtextunselected">#ff000000</color>
+	<color name="photoandratinggroupbg">#ECFADD</color>
+	<color name="excellentcolor">#2A9641</color>
+	<color name="goodcolor">#A6D96A</color>
+	<color name="faircolor">#E3C086</color>
+	<color name="poorcolor">#F46D43</color>
+	<color name="terriblecolor">#D7191C</color>
+	<color name="ingredientslow">#7676FE</color>
+	<color name="ingredientsmed">#FEAC5E</color>
+	<color name="ingredientshigh">#D45555</color>
+	
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<TableRow android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+<ImageView  
+    		android:id="@+id/thumbnail"
+			android:src="@drawable/image_not_available"
+			android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left" android:layout_gravity="left|center_vertical"
+            android:layout_weight="1"/>
+ <TextView
+            android:text="All Products \ntest line break"
+            android:gravity="left" android:layout_gravity="left|center_vertical"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+            
+ <TextView
+            android:text="72,000+ products"
+            android:gravity="bottom" android:layout_gravity="left|center_vertical"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+ </TableRow>
+<TableRow android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1">
+<ImageView  
+    		android:id="@+id/thumbnail"
+			android:src="@drawable/image_not_available"
+			android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+ <TextView
+            android:text="Ctrl-O"
+            android:gravity="left"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+</TableRow>
+</TableLayout>

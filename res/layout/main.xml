@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/maintabselected">
+	
+	<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+</TabHost>
+ 		
+   <RelativeLayout 
+		android:id="@+id/TitleBar"
+		android:background="@drawable/navigationbarbackground"
+		android:layout_width="fill_parent" 
+		android:layout_height="44dp">	
+		
+		<ImageView  android:id="@+id/navlogo" 
+			android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:src="@drawable/logoggnavbar"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+            
+        <ImageButton 
+		android:id="@+id/searchbutton" 
+		android:background="@null"
+		android:src="@anim/searchnavbutton_states"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+		android:layout_centerVertical="true">
+		</ImageButton>
+		
+		<ImageButton 
+		android:id="@+id/scanbutton" 
+		android:background="@null"
+		android:src="@anim/scannavbutton_states"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@+id/searchbutton"
+		android:layout_centerVertical="true">
+		</ImageButton>
+		
+		<ImageButton 
+		android:id="@+id/browsebutton" 
+		android:background="@null"
+		android:src="@anim/browsenavbutton_states"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_toLeftOf="@+id/scanbutton"
+		android:layout_centerVertical="true">
+		</ImageButton>
+		
+                  
+</RelativeLayout> 		
+ 		
+</RelativeLayout>

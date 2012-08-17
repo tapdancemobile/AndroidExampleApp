@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/fs_product_image_root"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" 
+              android:background="@drawable/photo_detail_bg"> 
+          
+						
+						<ImageView  
+						 android:id="@+id/fsproductimage"
+						 android:layout_width="fill_parent"
+						 android:layout_height="fill_parent"
+            			 android:scaleType="fitCenter"
+            			 android:adjustViewBounds="true"
+						 android:padding="10dip"/>
+	
+		<ImageButton 
+		android:id="@+id/closebutton" 
+		android:background="@null"
+		android:src="@anim/closebutton_states"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:padding="5dip">
+		</ImageButton>
+	
+</RelativeLayout>

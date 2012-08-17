@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+	xmlns:gm='http://base.google.com/ns-metadata/1.0' xmlns:g='http://base.google.com/ns/1.0'
+	xmlns:batch='http://schemas.google.com/gdata/batch' version='2.0'>
+	<channel>
+		<atom:id>http://www.google.com/base/feeds/snippets</atom:id>
+		<lastBuildDate>Thu, 24 Feb 2011 20:34:23 +0000</lastBuildDate>
+		<title>Items matching query: 049000009774</title>
+		<description />
+		<link>http://base.google.com</link>
+		<managingEditor>base@google.com (Google Inc.)</managingEditor>
+		<generator>GoogleBase</generator>
+		<openSearch:totalResults>2</openSearch:totalResults>
+		<openSearch:startIndex>1</openSearch:startIndex>
+		<openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+		<item>
+			<guid isPermaLink='false'>http://www.google.com/base/feeds/snippets/17637929323218201073</guid>
+			<pubDate>Thu, 04 Nov 2010 21:49:46 +0000</pubDate>
+			<atom:updated>2011-02-21T11:30:02.000Z</atom:updated>
+			<category domain='http://base.google.com/categories/itemtypes'>Local Products</category>
+			<title>DASANI WATER</title>
+			<description>DASANI WATER</description>
+			<link>http://base.google.com/base/a/6721627/D17637929323218201073</link>
+			<author>Toys R Us</author>
+			<g:id type='text'>624813</g:id>
+			<g:weight type='floatUnit'>1.0 lbs</g:weight>
+			<g:target_country type='text'>US</g:target_country>
+			<g:gtin type='text'>049000009774</g:gtin>
+			<g:expiration_date type='dateTime'>2011-03-23T11:30:02Z
+			</g:expiration_date>
+			<g:customer_id type='int'>6721627</g:customer_id>
+			<g:item_language type='text'>EN</g:item_language>
+			<g:item_type type='text'>Local Products</g:item_type>
+		</item>
+		<item>
+			<guid isPermaLink='false'>http://www.google.com/base/feeds/snippets/16154530800039335052</guid>
+			<pubDate>Wed, 09 Feb 2011 23:09:12 +0000</pubDate>
+			<atom:updated>2011-02-10T05:57:03.000Z</atom:updated>
+			<category domain='http://base.google.com/categories/itemtypes'>Local Products</category>
+			<title>DASANI 20OZ</title>
+			<description>DASANI 20OZ</description>
+			<link>http://base.google.com/base/a/7115477/D16154530800039335052</link>
+			<author>LifeWay Christian Stores</author>
+			<g:id type='text'>1305913</g:id>
+			<g:weight type='float'>0.0</g:weight>
+			<g:price type='floatUnit'>1.19 usd</g:price>
+			<g:target_country type='text'>US</g:target_country>
+			<g:expiration_date type='dateTime'>2011-03-12T05:57:03Z
+			</g:expiration_date>
+			<g:upc type='text'>049000009774</g:upc>
+			<g:customer_id type='int'>7115477</g:customer_id>
+			<g:item_language type='text'>EN</g:item_language>
+			<g:item_type type='text'>Local Products</g:item_type>
+		</item>
+	</channel>
+</rss>

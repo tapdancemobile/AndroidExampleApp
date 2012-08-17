@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/outputs"
+                        android:stretchColumns="*" android:layout_height="wrap_content"
+                        android:layout_width="fill_parent"
+                        android:paddingTop="25px"
+                        android:paddingBottom="75px">
+                        <TableRow android:background="#333333">
+                            <TextView android:text="Section Properties"
+                                android:gravity="left" android:layout_gravity="left"
+                                android:textStyle="bold" android:textSize="14dp">
+                            </TextView>
+                        </TableRow>
+                        <TableRow android:paddingTop="5px">
+                            <TextView android:text="A(in^2)" android:gravity="left"
+                                android:layout_gravity="left|center_vertical" android:textSize="20dp">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px" android:id="@+id/A"
+                                android:numeric="integer|decimal" android:clickable="false"
+                                android:focusable="false" android:focusableInTouchMode="false">
+                            </EditText>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:text="S(in^3)" android:gravity="left"
+                                android:layout_gravity="left|center_vertical" android:textSize="20px">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px" android:id="@+id/S"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal">
+                            </EditText>
+                        </TableRow>
+                        <TableRow android:paddingBottom="30px">
+                            <TextView android:text="I(in^4)" android:gravity="left"
+                                android:layout_gravity="left|center_vertical" android:textSize="20dp">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px" android:id="@+id/I"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal">
+                            </EditText>
+                        </TableRow>
+                        <TableRow android:background="#333333">
+                            <TextView android:text="Applied Loads" android:gravity="left"
+                                android:layout_gravity="left" android:textStyle="bold"
+                                android:textSize="14dp">
+                            </TextView>
+                        </TableRow>
+                        <TableRow android:paddingBottom="30px">
+                            <TextView android:text="Uniform Load w(plf)"
+                                android:gravity="left" android:layout_gravity="left|center_vertical"
+                                android:textSize="20dp">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:gravity="center" android:width="150px" android:id="@+id/UniformLoadplf"
+                                android:numeric="integer|decimal">
+                            </EditText>
+                        </TableRow>
+                        <TableRow android:background="#333333">
+                            <TextView android:text="Results" android:gravity="left"
+                                android:layout_gravity="left" android:textStyle="bold"
+                                android:textSize="14dp">
+                            </TextView>
+                        </TableRow>
+                        <TableRow android:paddingTop="5px">
+                            <TextView android:text="Shear V(lbs) =" android:gravity="left"
+                                android:layout_gravity="left|center_vertical" android:textSize="20dp">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px" android:id="@+id/ShearV"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal">
+                            </EditText>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:text="Moment M(ft-lbs)"
+                                android:gravity="left" android:layout_gravity="left|center_vertical"
+                                android:textSize="20dp">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px" android:id="@+id/MomentM"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal">
+                            </EditText>
+                        </TableRow>
+                        <TableRow android:paddingBottom="30px">
+                            <TextView android:text="Deflection(in)" android:gravity="left"
+                                android:layout_gravity="left|center_vertical" android:textSize="20dp">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px" android:id="@+id/Deflection"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal">
+                            </EditText>
+                        </TableRow>
+                        <TableRow android:background="#333333">
+                            <TextView android:text="Minimum Beam Depth"
+                                android:gravity="left" android:layout_gravity="left"
+                                android:textStyle="bold" android:textSize="14dp">
+                            </TextView>
+                        </TableRow>
+                        <TableRow android:paddingTop="5px">
+                            <TextView android:text="d based on Fv(in)"
+                                android:gravity="left" android:layout_gravity="left|center_vertical"
+                                android:textSize="20dp" android:maxWidth="200px">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px" android:id="@+id/MinimumDepth"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal">
+                            </EditText>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:gravity="left" android:layout_gravity="left|center_vertical"
+                                android:text="d based on Fb(in)" android:id="@+id/d2"
+                                android:textSize="20dp" android:maxWidth="200px">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal" android:id="@+id/dtwo">
+                            </EditText>
+                        </TableRow>
+                        <TableRow>
+                            <TextView android:gravity="left" android:layout_gravity="left|center_vertical"
+                                android:id="@+id/d3" android:text="d based on deflection(in)"
+                                android:textSize="20dp" android:maxWidth="200px">
+                            </TextView>
+                            <EditText android:layout_gravity="left|center_vertical"
+                                android:gravity="center" android:width="150px"
+                                android:focusable="false" android:focusableInTouchMode="false"
+                                android:numeric="integer|decimal" android:id="@+id/dthree">
+                            </EditText>
+                        </TableRow>
+                        <TableRow android:paddingTop="25px">
+                            <TextView android:gravity="left" android:layout_gravity="left|center_vertical"
+                                android:text="Adequate?" android:textSize="30dp">
+                            </TextView>
+                            <TextView android:layout_gravity="center_vertical|center_horizontal"
+                                android:textSize="30dp" android:gravity="center" android:id="@+id/adequate"
+                                android:textStyle="bold">
+                            </TextView>
+                        </TableRow>
+                    </TableLayout>

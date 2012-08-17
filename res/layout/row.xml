@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@anim/cellbg_states"
+android:layout_width="fill_parent"
+android:layout_height="75dip"
+android:orientation="horizontal">
+
+<ImageView  android:id="@+id/thumbnail" 
+			android:src="@drawable/image_not_available"
+			android:layout_width="75dip"
+            android:layout_height="75dip" 
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+<TextView
+android:id="@+id/titletext"
+android:text="MiEssence Biodegradable shampoo only on two rows for real"
+android:maxLines="2"
+android:ellipsize="marquee"
+android:textSize="16dip"
+android:textColor="@color/rowtitle"
+android:textStyle="bold"
+android:paddingLeft="5dip"
+android:paddingTop="5dip"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_toRightOf="@+id/thumbnail"/>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/footerinfo"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/titletext"
+android:layout_toRightOf="@+id/thumbnail">
+
+<ImageView  android:id="@+id/ratingIcon" 
+			android:src="@drawable/img_5_16"
+			android:layout_below="@+id/titletext"
+			android:paddingLeft="5dip"
+			android:layout_centerVertical="true"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+			
+<TextView
+android:id="@+id/ratingValue"
+android:layout_toRightOf="@+id/ratingIcon"
+android:text="8.9"
+android:textSize="18dip"
+android:textColor="@color/rowtitle"
+android:layout_alignParentBottom="true"
+android:paddingLeft="4dip"
+android:paddingBottom="4dip"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"/>
+
+<TextView
+android:id="@+id/ratingOutOf10"
+android:layout_toRightOf="@+id/ratingValue"
+android:text="out of 10"
+android:textSize="13dip"
+android:textColor="@color/darkgrey"
+android:layout_alignParentBottom="true"
+android:paddingLeft="4dip"
+android:paddingBottom="5dip"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"/>
+
+<TextView
+android:id="@+id/productsInBrand"
+android:layout_toRightOf="@+id/ratingOutOf10"
+android:text="5 more in brand"
+android:textSize="13dip"
+android:textColor="@color/lightgrey"
+android:layout_alignParentBottom="true"
+android:paddingLeft="20dip"
+android:paddingBottom="5dip"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"/>
+
+</RelativeLayout>
+
+</RelativeLayout>
